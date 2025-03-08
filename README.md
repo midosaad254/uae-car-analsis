@@ -53,7 +53,7 @@ Follow these steps to set up and run the project on your machine:
    pip install -r requirements.txt
    python app.py
  
-Project Structure
+## 📂 Project Structure
 
 uae-car-analsis/
 ├── data/
@@ -70,7 +70,8 @@ uae-car-analsis/
 ├── requirements.txt                # Required Python libraries
 └── README.md                       # Project documentation
 
-🎮 Usage
+## 🎮 Usage
+
 Dashboard Tab:
 Apply filters (make, location, price, year) to explore the dataset.
 View visualizations like price distribution, 3D scatter plots, and market trends.
@@ -80,7 +81,8 @@ Enter car details (make, model, year, mileage, etc.).
 Click "Predict Price" to get an estimated price with confidence intervals.
 Analyze feature impacts with SHAP plots and car evaluation via radar charts.
 
-Dataset
+## Dataset
+
 The dataset (data/uae_used_cars_10k.csv) contains 10,000 records of used cars in the UAE with the following columns:
 
 Make, Model, Year, Mileage, Cylinders, Price, Transmission, Fuel Type, Color, Description, [Location] (if available).
